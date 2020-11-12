@@ -7,6 +7,10 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  NUMBER:
+    description: "Rando number"
+    required: true
+    default: "0"
 
 runs:
   using: "docker"
