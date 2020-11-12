@@ -6,5 +6,5 @@ if($INPUT_NUMBER<0)
   sh -c "echo Negative number"
 else if($INPUT_NUMBER==0)
   sh -c "echo Zero"
-else
+then
   sh -c "echo Positive number"
